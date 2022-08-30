@@ -1,0 +1,131 @@
+body {
+    background-image: url("/html-css/.idea/image/b_coffee.jpg");
+    background-size: cover;
+}
+
+.forPictures {
+    margin: 0 auto;
+    width: 1000px;
+    height: 1300px;
+    border-style: dotted;
+
+    border: 5px solid transparent;
+}
+
+.firstD {
+    border-style: dotted;
+    border-bottom-color: deeppink;
+    border-left-style: hidden;
+    border-right-style: hidden;
+}
+
+
+.oneBorder{
+    border-style: dotted;
+    border-bottom-color: black;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-top-style: hidden;
+
+}
+
+.firstP {
+    padding: 40px;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    felx-wrap: wrap;
+    padding: 20px;
+    margin: 0 auto;
+    border-style: dotted;
+    width: 900px;
+    height: 300px;
+}
+
+.photo {
+    max-width: 31%;
+    padding: 0 10px;
+    height: 240px;
+    margin-top: 20px;
+}
+
+.photo1 {
+    margin-top: 100px;
+    max-width: 31%;
+    padding: 0 10px;
+    height: 240px;
+}
+
+.secondP {
+    text-align: center;
+}
+
+#footer_box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border-top: 2px;
+    padding-bottom: 400px;
+}
+
+
+.footer_text_left {
+    word-break: break-all;
+    font-size: 15px;
+    font-family: Euphemia;
+}
+
+.footer_text_middle {
+    word-break: break-all;
+    font-size: 15px;
+    font-family: Euphemia;
+}
+
+.footer_text_right {
+    word-break: break-all;
+    font-size: 15px;
+    font-family: Euphemia;
+}
+
+.img {
+    margin-top: -40%;
+    position: inherit;
+}
+
+.img2 {
+    float: right;
+}
+
+.left-images {
+    text-align: left;
+}
+
+.title {
+    word-wrap: break-word;
+    display: inline-block;
+    size: 20px;
+    color: lightslategray;
+}
+
+.lastTitle {
+    word-wrap: break-word;
+    display: inline-block;
+    size: 3px;
+    color: burlywood;
+}
+
+.aboutMe {
+    display: flex;
+}
+
+.gfg {
+    margin: 3%;
+    position: relative;
+}
+
+.float_col {
+    float: left;
+    margin-right: 10px;
+    width: 200px;
+}
