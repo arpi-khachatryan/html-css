@@ -8,7 +8,6 @@ body {
     width: 1000px;
     height: 1300px;
     border-style: dotted;
-
     border: 5px solid transparent;
 }
 
@@ -19,14 +18,12 @@ body {
     border-right-style: hidden;
 }
 
-
-.oneBorder{
+.oneBorder {
     border-style: dotted;
     border-bottom-color: black;
     border-left-style: hidden;
     border-right-style: hidden;
     border-top-style: hidden;
-
 }
 
 .firstP {
@@ -68,7 +65,6 @@ body {
     border-top: 2px;
     padding-bottom: 400px;
 }
-
 
 .footer_text_left {
     word-break: break-all;
